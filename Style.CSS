@@ -7,7 +7,7 @@ body {
 }
 header {
     background-color: #006400; 
-    color: #FFD700; /* Dourado */
+    color: #FFD700;
     padding: 20px;
     text-align: center;
 }
@@ -18,20 +18,18 @@ header h1 {
 }
 
 header span {
-    color: #FFD700; /* Dourado no nome da livraria */
+    color: #FFD700;
 }
 
 header p {
     font-size: 1.2em;
 }
 header img.logo {
-    width: 150px; /* Ajuste o tamanho conforme necessário */
+    width: 150px; 
     height: auto;
-    margin-bottom: 20px; /* Espaço entre a logo e o texto */
+    margin-bottom: 20px; 
 }
 
-
-/* Seção "Sobre" */
 #sobre-nos {
     padding: 40px;
     text-align: center;
@@ -39,7 +37,7 @@ header img.logo {
 }
 
 #sobre-nos h2 {
-    color: #006400; /* Verde escuro */
+    color: #006400; 
     font-size: 2em;
 }
 
@@ -51,19 +49,19 @@ header img.logo {
 #sobre-nos img {
     margin: 20px;
     border-radius: 8px;
-    width: 100%; /* Ajuste da largura das imagens */
-    max-width: 400px; /* Limita a largura máxima das imagens */
+    width: 100%; 
+    max-width: 400px; 
 }
 
-/* Seção "Equipe" */
+
 #equipe {
-    background-color: #FFD700; /* Dourado */
+    background-color: #FFD700; 
     padding: 40px;
     text-align: center;
 }
 
 #equipe h2 {
-    color: #006400; /* Verde escuro */
+    color: #006400; 
     font-size: 2em;
 }
 
@@ -80,7 +78,7 @@ header img.logo {
 }
 
 .membro h3 {
-    color: #006400; /* Verde escuro */
+    color: #006400; 
     font-size: 1.3em;
 }
 
@@ -88,7 +86,7 @@ header img.logo {
     font-size: 1em;
 }
 
-/* Formulário */
+
 #formulario {
     padding: 40px;
     background-color: #f4f4f4;
@@ -96,7 +94,7 @@ header img.logo {
 }
 
 #formulario h2 {
-    color: #006400; /* Verde escuro */
+    color: #006400; 
     font-size: 2em;
 }
 
@@ -108,7 +106,7 @@ form {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px; /* Limita a largura do formulário */
+    max-width: 500px; 
 }
 
 form label {
@@ -125,11 +123,11 @@ form input[type="email"] {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Garantir que o padding não quebre o layout */
+    box-sizing: border-box; 
 }
 
 form input[type="submit"] {
-    background-color: #006400; /* Verde escuro */
+    background-color: #006400; 
     color: #fff;
     padding: 12px 20px;
     font-size: 1.1em;
@@ -140,13 +138,13 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #004d00; /* Verde mais escuro ao passar o mouse */
+    background-color: #004d00; 
 }
 
-/* Rodapé */
+
 footer {
-    background-color: #006400; /* Verde escuro */
-    color: #FFD700; /* Dourado */
+    background-color: #006400; 
+    color: #FFD700; 
     padding: 20px;
     text-align: center;
 }
